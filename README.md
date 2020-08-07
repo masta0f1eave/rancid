@@ -11,6 +11,8 @@ Scripts are:
 
 csblogin - login script for Cisco Small Business switches (aka Cisco SF500, SF200). Yea, I know that RANCID supports this switches out-of-the-box, but for SF200 switch these scripts not works as intended, so I changed existing script.
 
-hoclogin - HP Office Connect login script. I've used this script for HP Office Connect switches, like HP 1920-24 and HP 1920-48. They use CommWare5-like OS, but very limited and with common enable password (Jinhua1920unauthorized). Base for this script was h3clogin. Used with h3crancid.
+hoclogin - HP Office Connect login script. I've used this script for HP Office Connect switches, like HP 1920-24. They use ComWare5-like OS, but limited and with common enable password (Jinhua1920unauthorized). Base for this script was h3clogin. Used with h3crancid.
 
+hllogin - script for HP 1920S 48G (JL386A). They use some Linux as OS, so I've used hlogin script and made some changes to work with this switch.
 
+hlrancid - RANCID script for HP 1920S 48G (JL386A). Base for this script is hrancid.
