@@ -1,0 +1,15 @@
+# Example of rancid.types.conf for scripts in this repo
+
+# HP Office Connect
+hp-oc;script;h3crancid
+hp-oc;login;hoclogin
+
+# HP Office Connect on Linux
+hp-lin;script;hlrancid
+hp-lin;login;hllogin
+hp-lin;timeout;30
+
+# From rancid.types.base:
+# Cisco small business devices.  These are peculiar; most likely this will not
+# work with all of them.
+cisco-sb;script;rancid -t cisco-sb
