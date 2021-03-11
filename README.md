@@ -5,7 +5,7 @@ Here are some RANCID scripts for low-end switches, works with RANCID 3.7.
 All copyrights are in files itself.
 I'm not guaranteeing that this scripts will work with your equipment, but it MAY work, at least worked for me.
 
-I've used as base various RANCID scripts(clogin, hlogin), but not yet contacted with developer for merging changes.
+I've used as base various RANCID scripts(clogin, hlogin), but not contacted with developer for merging changes.
 
 Scripts are:
 
